@@ -4,10 +4,10 @@ import os
 import shutil
 
 # Path to the main folder
-main_folder_path = r"C:\Users\israt\Downloads\Compressed\archive_13\ADNI_Screening_1.5T_AD_Complete\Preprocessed_Data"
+main_folder_path = r"C:\Users\israt\Downloads\Compressed\archive_13\ADNI-Screening-1.5T-AD-Complete\Preprocessed_Data"
 
 # Destination folder to copy orig.mgz files
-destination_folder = r"C:\Users\israt\Downloads\Compressed\archive_13\ADNI_Screening_1.5T_AD_Complete\Extracted_Mgz_AD"
+destination_folder = r"C:\Users\israt\Downloads\Compressed\archive_13\ADNI-Screening-1.5T-AD-Complete\Extract_AD"
 
 if not os.path.exists(destination_folder):
     os.makedirs(destination_folder)
